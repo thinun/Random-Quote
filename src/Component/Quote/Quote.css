@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    color: white;
+    border-radius: 15px;
+}
+.quote{
+    font-weight: bold;
+    padding: 5%;
+    text-align: center;
+}
+.author{
+    padding-bottom: 20px;
+}
+.button{
+    position: fixed;
+    bottom: 200px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
